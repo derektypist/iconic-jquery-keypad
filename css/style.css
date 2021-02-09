@@ -9,3 +9,17 @@ body {
     width: 50%;
     margin: auto;
 }
+
+/* Title */
+#title {
+    background: black;
+    font-size: 1.3em;
+    color: white;
+}
+
+/* Display */
+#display {
+    color: white;
+    background: seagreen;
+    height: 5em;
+}
