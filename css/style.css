@@ -33,6 +33,14 @@ body {
     color: yellow;
 }
 
+#settings {
+    color: orange;
+}
+
+#info {
+    color: turquoise;
+}
+
 button {
     font-size: 2em;
     background: black;
@@ -45,12 +53,20 @@ button {
 }
 
 button:hover {
-    background: navy;
+    background: blue;
     color: white;
 }
 
-#refresh:hover {
+#reset:hover {
     background: green;
+}
+
+#settings:hover {
+    background: purple;
+}
+
+#info:hover {
+    background: magenta;
 }
 
 .row button {
