@@ -17,6 +17,10 @@ body {
     color: white;
 }
 
+#title p {
+    margin: auto;
+}
+
 /* Display */
 #display {
     color: white;
