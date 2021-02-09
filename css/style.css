@@ -23,3 +23,34 @@ body {
     background: seagreen;
     height: 5em;
 }
+
+/* Buttons */
+#refresh {
+    color: yellow;
+}
+
+button {
+    font-size: 2em;
+    background: black;
+    color: white;
+    border-color: lightgreen;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 2px;
+    float: left;
+}
+
+button:hover {
+    background: navy;
+    color: white;
+}
+
+#refresh:hover {
+    background: green;
+}
+
+.row button {
+    width: 25%;
+}
+
+
