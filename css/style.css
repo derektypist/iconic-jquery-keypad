@@ -13,7 +13,8 @@ body {
 /* Title */
 #title {
     background: black;
-    font-size: 1.5em;
+    height: 60px;
+    font-size: 2em;
     color: white;
 }
 
