@@ -1,4 +1,11 @@
 /* Body */
 body {
     font-family: "Roboto", Arial, Verdana, sans-serif;
+    margin-top: 3em;
+}
+
+/* Keypad */
+#keypad {
+    width: 50%;
+    margin: auto;
 }
