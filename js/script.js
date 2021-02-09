@@ -21,100 +21,100 @@ $(document).ready(function() {
 
     // Keypad
 
-    // Display Music when Music Icon is clicked
+    // Display Music when the Button with Music Icon is clicked
     $("#music").click(function() {
         displayActivity(ACTIVITIES[0]);
     });
 
-    // Display Karaoke when Microphone Icon is clicked
+    // Display Karaoke when the Button with Microphone Icon is clicked
     $("#karaoke").click(function() {
         displayActivity(ACTIVITIES[1]);
     });
 
-    // Display Draawing when Draw Polygon Icon is clicked
+    // Display Draawing when the Button with Draw Polygon Icon is clicked
     $("#drawing").click(function() {
         displayActivity(ACTIVITIES[2]);
     });
 
-    // Display Dice when Dice Icon is clicked
+    // Display Dice when the Button with Dice Icon is clicked
     $("#dice").click(function() {
         displayActivity(ACTIVITIES[3]);
     });
 
-    // Display Calculator when Calculator Icon is clicked
+    // Display Calculator when the Button with Calculator Icon is clicked
     $("#calculator").click(function() {
         displayActivity(ACTIVITIES[4]);
     });
 
-    // Display Computing when Laptop Icon is clicked
+    // Display Computing when the Button with Laptop Icon is clicked
     $("#computing").click(function() {
         displayActivity(ACTIVITIES[5]);
     })
 
-    // Display Printing when Print Icon is clicked
+    // Display Printing when the Button with Print Icon is clicked
     $("#printing").click(function() {
         displayActivity(ACTIVITIES[6]);
     });
 
-    // Display Spreadsheet when Excel Icon is clicked
+    // Display Spreadsheet when the Button with File Excel Icon is clicked
     $("#spreadsheet").click(function() {
         displayActivity(ACTIVITIES[7]);
     });
 
-    // Display Shapes when Shapes Icon is clicked
+    // Display Shapes when the Button with Shapes Icon is clicked
     $("#shapes").click(function() {
         displayActivity(ACTIVITIES[8]);
     });
 
-    // Display Coding when Code Icon is clicked
+    // Display Coding when the Button with Code Icon is clicked
     $("#coding").click(function() {
         displayActivity(ACTIVITIES[9]);
     });
 
-    // Display HTML when HTML icon is clicked
+    // Display HTML when the Button with HTML icon is clicked
     $("#html").click(function() {
         displayActivity(ACTIVITIES[10]);
     });
 
-    // Display Python when Python icon is clicked
+    // Display Python when the Button with Python icon is clicked
     $("#python").click(function() {
         displayActivity(ACTIVITIES[11]);
     });
 
-    // Display Wine when Wine Bottle icon is clicked
+    // Display Wine when the Button with Wine Bottle icon is clicked
     $("#wine").click(function() {
         displayActivity(ACTIVITIES[12]);
     });
 
-    // Display Fish when Fish icon is clicked
+    // Display Fish when the Button with Fish icon is clicked
     $("#fish").click(function() {
         displayActivity(ACTIVITIES[13]);
     });
 
-    // Display Presentation when Presentation icon is clicked
+    // Display Presentation when the Button with Presentation icon is clicked
     $("#presentation").click(function() {
         displayActivity(ACTIVITIES[14]);
     });
 
-    // Display News when Newspaper icon is clicked
+    // Display News when the Button with Newspaper icon is clicked
     $("#news").click(function() {
         displayActivity(ACTIVITIES[15]);
     });
 
-    // Display Information when Info icon is clicked
+    // Display Information when the Button with Info icon is clicked
     $("#info").click(function() {
         displayActivity(ACTIVITIES[16]);
     });
 
-    // Display Photo/Video when Photo/Video Icon is clicked
+    // Display Photo/Video when the Button with Photo/Video Icon is clicked
     $("#photovideo").click(function() {
         displayActivity(ACTIVITIES[17]);
     });
 
-    // Set to Initial Default when Redo Icon is clicked
+    // Set to Initial Default when the Button with Redo Icon is clicked
     $("#reset").click(resetActivity);
 
-    // Change Background Color when Adjust Icon is clicked
+    // Change Background Color when the Button with Adjust Icon is clicked
     $("#settings").click(changeDisplayBackgroundColor);
 
     // Function to Change the Background Color of Display
@@ -122,7 +122,5 @@ $(document).ready(function() {
         iterations++;
         $("#display").css("background-color", DISPLAY_BACKGROUND_COLORS[iterations % DISPLAY_BACKGROUND_COLORS.length]);
     }
-
-
 
 });
