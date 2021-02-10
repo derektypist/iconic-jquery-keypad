@@ -43,3 +43,9 @@ This project uses the technologies of HTML5, CSS3, Bootstrap 5.0.0-beta1, Font A
 
 Ensure all the user stories have been met.
 
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/iconic-jquery-keypad) at the Main Branch.  To make further changes and apply updates, use the command:
+
+    git push
+
