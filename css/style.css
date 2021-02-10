@@ -71,6 +71,10 @@ button:hover {
     background: magenta;
 }
 
+#display:hover {
+    color: yellow;
+}
+
 .row button {
     width: 25%;
 }
