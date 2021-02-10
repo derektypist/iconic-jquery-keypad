@@ -31,5 +31,13 @@ The background colors are:
 
 ## Features
 
-The keypad contains Font Awesome Icons, for activities in various categories such as Music, Computing and Design.  A screentip is provided when hovering over the buttons.
+The keypad contains Font Awesome Icons, for activities in various categories such as Music, Computing and Design.  A screentip is provided and a different background color is displayed when hovering over the buttons.
+
+## Technologies
+
+This project uses the technologies of HTML5, CSS3, Bootstrap 5.0.0-beta1, Font Awesome 5.15.2, jQuery 3.5.1 and Google Fonts (e.g. Roboto).
+
+## Testing
+
+Ensure all the user stories have been met.
 
