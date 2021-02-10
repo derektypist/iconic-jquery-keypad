@@ -37,7 +37,7 @@ The keypad contains Font Awesome Icons, for activities in various categories suc
 
 ## Technologies
 
-This project uses the technologies of HTML5, CSS3, Bootstrap 5.0.0-beta1, Font Awesome 5.15.2, jQuery 3.5.1 and Google Fonts (e.g. Roboto).
+This project uses the technologies of HTML5, CSS3, Bootstrap 5.0.0-beta1, Font Awesome 5.15.2, JavaScript, jQuery 3.5.1 and Google Fonts (e.g. Roboto).
 
 ## Testing
 
@@ -49,3 +49,13 @@ Deployed on [GitHub Pages](https://derektypist.github.io/iconic-jquery-keypad) a
 
     git push
 
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [Font Awesome](https://www.fontawesome.com), for the Icons
+- [w3schools.com](https://www.w3schools.com), for jQuery and Font Awesome Information.
