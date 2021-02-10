@@ -8,6 +8,8 @@ The aim is to provide a keypad with the Font Awesome Icons for various activitie
 
 As a user, when I hover over the buttons, I expect a screentip to be displayed.
 
+As a user, when I hover over the display, I get a different color.
+
 As a user, when I click on a button with the `Redo Icon`, I expect the message `Select Activity` to be displayed.  The background color stays the same.
 
 As a user, when I click on the button with an icon, I expect the name of the activity (e.g. `Python`) to be displayed.  Except on the button with the `Redo Icon`.
